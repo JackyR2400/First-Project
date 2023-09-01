@@ -1,77 +1,38 @@
-#head {
-    background-image: url('/assets/photos/Cuphead-Draw-.jpg');
-}
+/* Quicksand google font import */
+/* font-family: 'Quicksand',
+sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-.page-header {
-    height: 30vh;
-    background: center 70% no-repeat;
-}
-
-.hor-center {
-    justify-content: center;
-}
-
-.ver-center {
-    align-self: center;
-}
-
-ul {
-    list-style-type: none;
+body {
     margin: 0;
-    padding: 0;
-}
-
-li a {
-    border: 2px solid black;
-    border-radius: 50%;
-    width: 5rem;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    border-radius: 16px;
-    font-family: Lato;
-}
-
-nav li {
-    display: inline;
+    font-family: 'Quicksand', sans-serif;
+    background-color: gray;
+    max-width: 1024px;
+    margin: auto;
+    
 }
 
 nav {
-    text-align: center;
-    border-bottom: 2px solid black;
-    margin: 0px 20px 20px 20px;
-    padding-bottom: 20px;
-}
-
-img {
-    border: 2px solid black;
-    max-width: 60%;
-    padding: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 28px;
+    padding: 1rem;
+    background-color: aliceblue;
 
 }
 
-h1 {
-    font-family: Roboto, sans-serif;
-    text-align: center;
-}
+nav > a {
+    text-decoration: none;
+    color: dimgray;
+    margin-left: 0.5rem;
 
-figure {
-    margin-top: 40px;
 }
 
 article {
-    margin: 100px;
-    position: center;
-
+    margin-left: 100px;
+    color: aliceblue;
 }
 
-article h2 {
-    margin: 100px;
+section {
+    display: flex;
 }
 
 aside {
@@ -80,6 +41,34 @@ aside {
 
 }
 
-section {
+#head {
+    background-image: url('/assets/photos/Cuphead-Draw-.jpg');
+}
+
+
+h1 {
+    font-size: 5rem;
+    margin: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.page-header {
+    height: 20vh;
+    background: center no-repeat;
+    font-family: ;
+}
+
+.flex {
     display: flex;
+}
+
+.hor-center {
+    justify-content: center;
+}
+
+.ver-center {
+    align-self: center;
 }
