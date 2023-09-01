@@ -31,6 +31,14 @@ sans-serif; */
   background-color: black;
 }
 
+.xxl {
+  font-size: xx-large;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
 /* Elements */
 
 body {
@@ -44,6 +52,10 @@ body {
 
 h1 {
   font-size: 5rem;
+}
+
+article > h2 {
+  margin-left: 2em;
 }
 
 header {
@@ -78,6 +90,10 @@ article {
 
 section {
   display: flex;
+}
+
+div {
+  margin: 2em;
 }
 
 aside {
