@@ -1,56 +1,9 @@
 /* Quicksand google font import */
 /* font-family: 'Quicksand',
 sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
-body {
-    margin: 0;
-    font-family: 'Quicksand', sans-serif;
-    background-color: gray;
-    max-width: 1024px;
-    margin: auto;
-    
-}
-
-nav {
-    font-size: 28px;
-    padding: 1rem;
-    background-color: aliceblue;
-
-}
-
-nav > a {
-    text-decoration: none;
-    color: dimgray;
-    margin-left: 0.5rem;
-
-}
-
-article {
-    margin-left: 100px;
-    color: aliceblue;
-}
-
-section {
-    display: flex;
-}
-
-aside {
-    width: 35%;
-    float: right;
-
-}
-
-#head {
-    background-image: url('/assets/photos/Cuphead-Draw-.jpg');
-}
-
-
-h1 {
-    font-size: 5rem;
-    margin: 10px;
-}
-
+/* Classes */
 .text-center {
     text-align: center;
 }
@@ -58,7 +11,6 @@ h1 {
 .page-header {
     height: 20vh;
     background: center no-repeat;
-    font-family: ;
 }
 
 .flex {
@@ -71,4 +23,64 @@ h1 {
 
 .ver-center {
     align-self: center;
+}
+
+/* Elements */
+
+body {
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+    background-image: url('/assets/photos/1920x1200');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+header {
+    color: chocolate;
+}
+
+header>p {
+    color: black;
+}
+
+nav {
+    font-size: 28px;
+    padding-top: 1.5rem;
+    max-width: 1024px;
+    margin: auto;
+    background-color: aliceblue;
+}
+
+nav>a {
+    text-decoration: none;
+    color: dimgray;
+    margin-left: 0.5rem;
+}
+
+article {
+    background-color: gray;
+    max-width: 1024px;
+    max-height: 100%;
+    color: aliceblue;
+    margin: auto;
+}
+
+section {
+    display: flex;
+}
+
+aside {
+    width: 40%;
+    float: center;
+    background-color: silver;
+}
+
+#head {
+    background-image: url("/assets/photos/Cuphead-Draw-.jpg");
 }
