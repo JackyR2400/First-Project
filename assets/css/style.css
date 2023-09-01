@@ -25,6 +25,13 @@ sans-serif; */
     align-self: center;
 }
 
+.headhighlight {
+    display: block;
+    padding: 0 0;
+    background-color: black;
+
+}
+
 /* Elements */
 
 body {
@@ -42,7 +49,7 @@ h1 {
 }
 
 header {
-    color: chocolate;
+    color: moccasin;
 }
 
 header>p {
@@ -51,7 +58,7 @@ header>p {
 
 nav {
     font-size: 28px;
-    padding-top: 1.5rem;
+    padding: 1.5rem 0 1.5rem 0;
     max-width: 1024px;
     margin: auto;
     background-color: aliceblue;
@@ -60,7 +67,7 @@ nav {
 nav>a {
     text-decoration: none;
     color: dimgray;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
 }
 
 article {
