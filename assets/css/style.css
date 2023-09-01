@@ -5,103 +5,107 @@ sans-serif; */
 
 /* Classes */
 .text-center {
-  text-align: center;
+    text-align: center;
 }
 
 .page-header {
-  height: 20vh;
-  background: center no-repeat;
+    height: 20vh;
+    background: center no-repeat;
 }
 
 .flex {
-  display: flex;
+    display: flex;
 }
 
 .hor-center {
-  justify-content: center;
+    justify-content: center;
 }
 
 .ver-center {
-  align-self: center;
+    align-self: center;
 }
 
 .headhighlight {
-  display: block;
-  padding: 0 0;
-  background-color: black;
+    display: block;
+    padding: 0 0;
+    background-color: black;
 }
 
 .xxl {
-  font-size: xx-large;
+    font-size: xx-large;
 }
 
 .underline {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 /* Elements */
 
 body {
-  margin: 0;
-  font-family: "Quicksand", sans-serif;
-  background-image: url("/assets/photos/1920x1200");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: black;
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+    background-image: url("/assets/photos/1920x1200");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
 }
 
 h1 {
-  font-size: 5rem;
+    font-size: 5rem;
 }
 
-article > h2 {
-  margin-left: 2em;
+article>h2 {
+    margin-left: 2em;
 }
 
 header {
-  color: moccasin;
+    color: moccasin;
 }
 
-header > p {
-  color: black;
+header>p {
+    color: black;
 }
 
 nav {
-  font-size: 28px;
-  padding: 1.5rem 0 1.5rem 0;
-  max-width: 1024px;
-  margin: auto;
-  background-color: aliceblue;
+    font-size: 28px;
+    padding: 1.5rem 0 1.5rem 0;
+    max-width: 1024px;
+    margin: auto;
+    background-color: aliceblue;
 }
 
-nav > a {
-  text-decoration: none;
-  color: dimgray;
-  margin-left: 1rem;
+nav>a {
+    text-decoration: none;
+    color: dimgray;
+    margin-left: 1rem;
+}
+
+nav>a:hover {
+    color: darkblue;
 }
 
 article {
-  background-color: gray;
-  max-width: 1024px;
-  max-height: 100%;
-  color: aliceblue;
-  margin: auto;
+    background-color: gray;
+    max-width: 1024px;
+    max-height: 100%;
+    color: aliceblue;
+    margin: auto;
 }
 
 section {
-  display: flex;
+    display: flex;
 }
 
 div {
-  margin: 2em;
+    margin: 2em;
 }
 
 aside {
-  width: 40%;
-  float: center;
-  background-color: silver;
+    width: 40%;
+    background-color: silver;
+    text-decoration: none;
 }
 
 #head {
-  background-image: url("/assets/photos/Cuphead-Draw-.jpg");
+    background-image: url("/assets/photos/Cuphead-Draw-.jpg");
 }
