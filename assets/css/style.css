@@ -17,7 +17,7 @@ li a {
     font-family: Lato;
 }
 
-li {
+nav li {
     display: inline;
 }
 
@@ -45,4 +45,14 @@ h1 {
 
 figure {
     margin-top: 40px;
+}
+
+aside {
+    width: 35%;
+    float: right;
+
+}
+
+section {
+    display: flex;
 }
